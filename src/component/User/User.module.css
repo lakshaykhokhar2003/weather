@@ -1,0 +1,81 @@
+.ProfileIcon {
+    position: absolute;
+    right: 1%;
+    top: 2%;
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+.UserList {
+    position: absolute;
+    right: 0;
+    top: 10%;
+    /*background-color: white;*/
+    border-bottom: 1px solid #ccc;
+    min-width: 240px;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.DisplayText {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.DisplayText:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.7rem;
+}
+
+.Users {
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.Users:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.Users button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+.Close {
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    /*background-color: white;*/
+    border: none;
+    cursor: pointer;
+}
+
+.ShowText {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.Button {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}

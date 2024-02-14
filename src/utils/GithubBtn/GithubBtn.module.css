@@ -1,0 +1,36 @@
+.GithubBtn {
+    background-color: #24292e;
+    color: #ffffff;
+    border: none;
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 1px 1px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.GithubBtn:hover {
+    background-color: #1c2022;
+}
+
+.GithubBtn:active {
+    background-color: #161b22;
+}
+
+.GithubBtn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #c8dafc;
+}
+
+.GithubBtn svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    padding: 0;
+}

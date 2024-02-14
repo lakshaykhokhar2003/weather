@@ -1,0 +1,50 @@
+.SearchBar {
+    margin: 20px;
+    width: 20%;
+    align-self: center;
+}
+
+.SearchBar .css-yjsfm1 {
+    background-color: white;
+    color: black;
+    /*border: none;*/
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.list {
+    font-family: 'Nato Sans JP', sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.list:hover {
+    background-color: #ccc;
+}
+
+.list button {
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px;
+    font-weight: 500;
+    color: transparent;
+    background: linear-gradient(74deg, #4285f4 0, #9b72cb 9%, #d96570 20%, #d96570 24%, #9b72cb 35%, #4285f4 44%, #9b72cb 50%, #d96570 56%, #131314 75%, #131314 100%);
+    background-size: 400% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background 0.3s ease;
+}
+

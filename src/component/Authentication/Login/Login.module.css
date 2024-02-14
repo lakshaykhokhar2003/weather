@@ -1,0 +1,108 @@
+.Wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    height: 100vh;
+    width: 30%;
+    backdrop-filter: blur(1px);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.Texts, .Form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+
+
+.Heading {
+    text-shadow: 2px 2px 3px black;
+}
+
+.Heading span {
+    font-size: 2rem;
+}
+
+.Texts p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1em 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.Button {
+    margin: 1em 0;
+    width: 100%;
+    padding: 1.2em 1rem;
+    cursor: pointer;
+    gap: 0.4rem;
+    font-weight: bold;
+    border-radius: 4px;
+    text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+    background: #fffc9f;
+    background-size: 300%;
+    border: none;
+    box-shadow: 0 30px 10px -20px rgba(0, 0, 0, .2);
+    transition: all .3s ease;
+}
+
+.Button:hover {
+    background-size: 320%;
+    background-position: right center;
+    color: #8800887F;
+    text-shadow: none;
+    transform: translateY(-1px);
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, .2);
+
+}
+
+.Divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: black;
+    padding: 0 10px;
+    user-select: none;
+}
+
+.Divider::before {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin: 10px;
+}
+
+.Divider::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin: 10px;
+}
+
+.SignUp {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: black;
+    user-select: none;
+    margin: 15px 0 0;
+}
+
+.HaveAcc, .ForgotPassword {
+    font-size: 1.5rem;
+    color: black;
+    padding: 0 10px;
+    user-select: none;
+
+}
+

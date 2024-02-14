@@ -91,7 +91,6 @@ const useUsers = () => {
 
     useEffect(() => {
         fetchUsers();
-        console.log(currentUser?.status)
     }, [sortByOnline, currentUser?.status]);
 
     return {
